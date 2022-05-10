@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="ui.HomeActivity">
+    android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -57,7 +56,6 @@
                 android:transitionName="welcome" />
 
             <soup.neumorphism.NeumorphCardView
-                style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_marginTop="@dimen/space_12"
@@ -86,7 +84,6 @@
             </soup.neumorphism.NeumorphCardView>
 
             <soup.neumorphism.NeumorphCardView
-                style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:padding="24dp"
@@ -115,7 +112,6 @@
 
             <soup.neumorphism.NeumorphCardView
                 android:id="@+id/cardView"
-                style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:padding="24dp"
@@ -142,7 +138,6 @@
             </soup.neumorphism.NeumorphCardView>
 
             <soup.neumorphism.NeumorphCardView
-                style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:padding="24dp"
@@ -173,7 +168,6 @@
 
             <soup.neumorphism.NeumorphCardView
                 android:id="@+id/btnSave"
-                style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/space_72"
                 android:layout_marginLeft="@dimen/space_52"
